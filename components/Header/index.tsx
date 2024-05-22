@@ -14,7 +14,7 @@ const CustomAppBar = styled(AppBar)({
 });
 
 const Title = styled(Typography)({
-  flexGrow: 1,
+  flexGrow: 3,
   fontWeight: 'bold',
   color: 'white',
   fontSize: '1.65rem',
@@ -24,9 +24,18 @@ const NavLink = styled('a')(({ theme }) => ({
   marginLeft: theme.spacing(2),
   color: 'inherit',
   textDecoration: 'none',
+  textTransform: 'uppercase',
   '&:hover': {
     textDecoration: 'underline',
   },
+  fontSize: '.75rem',
+}));
+
+
+const BuyItNowLink = styled(NavLink)(({ theme }) => ({
+  border: '1px solid white',
+  borderRadius: '1rem',
+  padding: '.45rem 1.1rem',
 }));
 
 const CustomDrawer = styled(Drawer)({
@@ -46,16 +55,21 @@ function Header() {
 
   return (
     <CustomAppBar position="static">
-      <Container>
+      <Container sx={{ padding: '.5rem 4rem' }} disableGutters>
         <Toolbar disableGutters>
           <Title variant="h1">
             Potato<sup style={{ fontSize: ".6rem" }}>TM</sup>
           </Title>
-          <Box display={{ xs: "none", sm: "flex" }}>
+          <Box
+            display={{ xs: "none", sm: "flex" }}
+            justifyContent={"space-around"}
+            alignItems={"center"}
+            flexGrow={1}
+          >
             <NavLink href="#about">About</NavLink>
             <NavLink href="#feature">Feature</NavLink>
             <NavLink href="#nutrition">Nutrition</NavLink>
-            <NavLink href="#buy-it-now">Buy It Now</NavLink>
+            <BuyItNowLink href="#buy-it-now">Buy It Now</BuyItNowLink>
           </Box>
           <Box display={{ xs: 'flex', sm: 'none' }}>
             <IconButton
@@ -75,22 +89,22 @@ function Header() {
         onClose={toggleMenu}
       >
         <List>
-          <ListItem button>
+          <ListItem>
             <NavLink href="#about">
               <ListItemText primary="About" />
             </NavLink>
           </ListItem>
-          <ListItem button>
+          <ListItem>
             <NavLink href="#feature">
               <ListItemText primary="Feature" />
             </NavLink>
           </ListItem>
-          <ListItem button>
+          <ListItem>
             <NavLink href="#nutrition">
               <ListItemText primary="Nutrition" />
             </NavLink>
           </ListItem>
-          <ListItem button>
+          <ListItem>
             <NavLink href="#buy-it-now">
               <ListItemText primary="Buy It Now" />
             </NavLink>

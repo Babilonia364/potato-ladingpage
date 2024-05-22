@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/system';
 import potatoImage from '@/assets/images/potatos_main.png';
 
-const Container = styled('div')({
+const Container = styled('section')({
   textAlign: 'center',
   display: 'flex',
   flexDirection: 'column',
@@ -37,9 +37,12 @@ const Subtext = styled(Typography)(({ theme }) => ({
   },
 }));
 
-const Image = styled('img')({
-  width: '60%',
-});
+const Image = styled('img')(({ theme }) => ({
+  width: '45%',
+  [theme.breakpoints.down('sm')]: {
+    width: '80%',
+  },
+}));
 
 const Headline = () => {
   return (

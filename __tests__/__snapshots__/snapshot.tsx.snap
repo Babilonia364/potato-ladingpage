@@ -83,7 +83,7 @@ exports[`renders homepage unchanged 1`] = `
       </header>
     </header>
     <main>
-      <div
+      <section
         class="css-eg4353"
       >
         <h2
@@ -107,7 +107,7 @@ exports[`renders homepage unchanged 1`] = `
           class="css-a6rva7"
           src="/img.jpg"
         />
-      </div>
+      </section>
     </main>
     <footer>
       <p>
