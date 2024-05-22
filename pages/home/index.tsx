@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Headline from "@/components/Headline";
 import { styled } from "@mui/material";
 
 const CustomDivContainer = styled('div')({
@@ -14,7 +15,7 @@ export default function Home() {
       </header>
 
       <main>
-        <p>main</p>
+        <Headline />
       </main>
 
       <footer>

@@ -17,6 +17,7 @@ const Title = styled(Typography)({
   flexGrow: 1,
   fontWeight: 'bold',
   color: 'white',
+  fontSize: '1.65rem',
 });
 
 const NavLink = styled('a')(({ theme }) => ({
@@ -47,7 +48,7 @@ function Header() {
     <CustomAppBar position="static">
       <Container>
         <Toolbar disableGutters>
-          <Title variant="h6">
+          <Title variant="h1">
             Potato<sup style={{ fontSize: ".6rem" }}>TM</sup>
           </Title>
           <Box display={{ xs: "none", sm: "flex" }}>

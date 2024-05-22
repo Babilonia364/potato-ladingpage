@@ -10,7 +10,8 @@ describe('Header', () => {
   });
 
   it('should render the company name', () => {
-    expect(screen.getByText('PotatoTM')).toBeInTheDocument();
+    expect(screen.getByText('Potato')).toBeInTheDocument();
+    expect(screen.getByText('TM')).toBeInTheDocument();
   });
 
   it('should render the navigation links', () => {

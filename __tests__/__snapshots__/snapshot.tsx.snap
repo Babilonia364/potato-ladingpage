@@ -2,10 +2,12 @@
 
 exports[`renders homepage unchanged 1`] = `
 <div>
-  <div>
+  <div
+    class="css-lm19hc"
+  >
     <header>
       <header
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-1gxz8vn-MuiPaper-root-MuiAppBar-root"
       >
         <div
           class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
@@ -13,11 +15,16 @@ exports[`renders homepage unchanged 1`] = `
           <div
             class="MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiToolbar-root"
           >
-            <h6
-              class="MuiTypography-root MuiTypography-h6 css-1kc19ns-MuiTypography-root"
+            <h1
+              class="MuiTypography-root MuiTypography-h1 css-8vyaei-MuiTypography-root"
             >
-              PotatoTM
-            </h6>
+              Potato
+              <sup
+                style="font-size: .6rem;"
+              >
+                TM
+              </sup>
+            </h1>
             <div
               class="MuiBox-root css-rntpfg"
             >
@@ -76,9 +83,31 @@ exports[`renders homepage unchanged 1`] = `
       </header>
     </header>
     <main>
-      <p>
-        main
-      </p>
+      <div
+        class="css-eg4353"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h2 css-18hu9mz-MuiTypography-root"
+        >
+          "Sweet, Nutritious and Delicious"
+        </h2>
+        <h3
+          class="MuiTypography-root MuiTypography-h3 css-rfmu20-MuiTypography-root"
+        >
+          The key to happiness is hidden in the 
+          <b>
+            Potato
+          </b>
+          <sup>
+            TM
+          </sup>
+        </h3>
+        <img
+          alt="Potato"
+          class="css-a6rva7"
+          src="/img.jpg"
+        />
+      </div>
     </main>
     <footer>
       <p>
