@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Header from "@/components/Header";
 import Headline from "@/components/Headline";
 import { styled } from "@mui/material";
@@ -16,6 +17,7 @@ export default function Home() {
 
       <main>
         <Headline />
+        <About />
       </main>
 
       <footer>

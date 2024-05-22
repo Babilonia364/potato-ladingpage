@@ -10,13 +10,13 @@ exports[`renders homepage unchanged 1`] = `
         class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-1gxz8vn-MuiPaper-root-MuiAppBar-root"
       >
         <div
-          class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+          class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-1py4ru7-MuiContainer-root"
         >
           <div
             class="MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiToolbar-root"
           >
             <h1
-              class="MuiTypography-root MuiTypography-h1 css-8vyaei-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h1 css-10aynlv-MuiTypography-root"
             >
               Potato
               <sup
@@ -26,28 +26,28 @@ exports[`renders homepage unchanged 1`] = `
               </sup>
             </h1>
             <div
-              class="MuiBox-root css-rntpfg"
+              class="MuiBox-root css-84yz3m"
             >
               <a
-                class="css-1wze9pr"
+                class="css-3k3sb4"
                 href="#about"
               >
                 About
               </a>
               <a
-                class="css-1wze9pr"
+                class="css-3k3sb4"
                 href="#feature"
               >
                 Feature
               </a>
               <a
-                class="css-1wze9pr"
+                class="css-3k3sb4"
                 href="#nutrition"
               >
                 Nutrition
               </a>
               <a
-                class="css-1wze9pr"
+                class="css-vugvun"
                 href="#buy-it-now"
               >
                 Buy It Now
@@ -104,10 +104,50 @@ exports[`renders homepage unchanged 1`] = `
         </h3>
         <img
           alt="Potato"
-          class="css-a6rva7"
+          class="css-i9y8rr"
           src="/img.jpg"
         />
       </section>
+      <div
+        class="MuiBox-root css-3jh26m"
+        id="about"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom css-vta3pc-MuiTypography-root"
+        >
+          Diferentes shapes and sizes
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-h3 MuiTypography-paragraph css-1xpghx3-MuiTypography-root"
+        >
+          <b>
+            Potato
+          </b>
+          <sup>
+            TM
+          </sup>
+           comes in many different unique shapes and sizes.
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-h3 MuiTypography-paragraph css-1xpghx3-MuiTypography-root"
+        >
+          Find the one that fits your personal preferences.
+        </p>
+        <div
+          class="MuiBox-root css-cecl5p"
+        >
+          <img
+            alt=""
+            class="css-9ygnsh"
+            src="/img.jpg"
+          />
+          <img
+            alt="Image of two potatoes"
+            class="css-e3obl3"
+            src="/img.jpg"
+          />
+        </div>
+      </div>
     </main>
     <footer>
       <p>
