@@ -8,9 +8,15 @@ import { Drawer, IconButton, List, ListItem, ListItemText } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 
+const CustomAppBar = styled(AppBar)({
+  background: 'transparent',
+  boxShadow: 'none',
+});
+
 const Title = styled(Typography)({
   flexGrow: 1,
   fontWeight: 'bold',
+  color: 'white',
 });
 
 const NavLink = styled('a')(({ theme }) => ({
@@ -22,6 +28,14 @@ const NavLink = styled('a')(({ theme }) => ({
   },
 }));
 
+const CustomDrawer = styled(Drawer)({
+  '& .MuiPaper-root': {
+    background: 'transparent',
+    border: '1px solid white',
+    color: 'white',
+  },
+});
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -30,11 +44,11 @@ function Header() {
   };
 
   return (
-    <AppBar position="static">
+    <CustomAppBar position="static">
       <Container>
         <Toolbar disableGutters>
           <Title variant="h6">
-            PotatoTM
+            Potato<sup style={{ fontSize: ".6rem" }}>TM</sup>
           </Title>
           <Box display={{ xs: "none", sm: "flex" }}>
             <NavLink href="#about">About</NavLink>
@@ -54,7 +68,7 @@ function Header() {
           </Box>
         </Toolbar>
       </Container>
-      <Drawer
+      <CustomDrawer
         anchor="right"
         open={isMenuOpen}
         onClose={toggleMenu}
@@ -81,8 +95,8 @@ function Header() {
             </NavLink>
           </ListItem>
         </List>
-      </Drawer>
-    </AppBar>
+      </CustomDrawer>
+    </CustomAppBar>
   );
 }
 
