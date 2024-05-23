@@ -63,7 +63,7 @@ const CustomImagePotato = styled('img')(({ theme }) => ({
   },
 }));
 
-const About: React.FC = () => {
+function About() {
   return (
     <AboutContainer id='about'>
       <CustomTitle variant="h2" gutterBottom>

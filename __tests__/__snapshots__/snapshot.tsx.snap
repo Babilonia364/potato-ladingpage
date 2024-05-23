@@ -150,9 +150,52 @@ exports[`renders homepage unchanged 1`] = `
       </div>
     </main>
     <footer>
-      <p>
-        footer
-      </p>
+      <div
+        class="MuiBox-root css-f00jr7"
+      >
+        <div
+          class="MuiBox-root css-qabjsf"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-uieoi2-MuiTypography-root"
+          >
+            Since you came here to read this, have one Potato for free
+          </h5>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-uieoi2-MuiTypography-root"
+          >
+            Copyright © 2015 PotatoTM All rights reserved
+          </h5>
+        </div>
+        <div
+          class="MuiBox-root css-wsfch7"
+        >
+          <a
+            class="css-14j1gzm"
+            href="#about"
+          >
+            History
+          </a>
+          <a
+            class="css-14j1gzm"
+            href="#"
+          >
+            About
+          </a>
+          <a
+            class="css-14j1gzm"
+            href="#"
+          >
+            Contact us
+          </a>
+          <a
+            class="css-14j1gzm"
+            href="#"
+          >
+            Free Potato
+          </a>
+        </div>
+      </div>
     </footer>
   </div>
 </div>

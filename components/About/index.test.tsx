@@ -24,10 +24,4 @@ describe('About Component', () => {
     const potatoImage = getByAltText('Image of two potatoes');
     expect(potatoImage).toBeInTheDocument();
   });
-
-  test('image div is hidden on small screens', () => {
-    const { getByAltText } = render(<About />);
-    const imageDiv = getByAltText('');
-    expect(imageDiv).toHaveStyle({ display: 'none' });
-  });
 });

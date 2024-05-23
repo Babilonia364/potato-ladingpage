@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Headline from "@/components/Headline";
 import { styled } from "@mui/material";
@@ -21,7 +22,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <p>footer</p>
+        <Footer />
       </footer>
     </CustomDivContainer>
   );
