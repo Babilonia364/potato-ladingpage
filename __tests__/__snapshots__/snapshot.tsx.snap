@@ -148,6 +148,37 @@ exports[`renders homepage unchanged 1`] = `
           />
         </div>
       </div>
+      <section
+        class="MuiBox-root css-m4hpti"
+        id="nutrition"
+      >
+        <div
+          class="MuiBox-root css-1ewxv5a"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-h1 MuiTypography-gutterBottom css-1k3jgzw-MuiTypography-root"
+          >
+            Is 
+            <b>
+              Potato
+            </b>
+            <sup>
+              TM
+            </sup>
+             healthy? Yes it is!
+          </h1>
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1sm4hog-MuiTypography-root"
+          >
+            The majority of carbohydrates in potatoes are complex carbohydrates, your body's main energy source.
+          </h3>
+        </div>
+        <img
+          alt="Some nutritional values of a potato: 110 calories, 26g carbohydrate, 3g protein and 0g fat"
+          class="css-2q27ea"
+          src="/img.jpg"
+        />
+      </section>
     </main>
     <footer>
       <div
