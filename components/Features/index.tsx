@@ -1,37 +1,38 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import nutrition from '@/assets/images/potato_nutrition.jpg';
+import features from '@/assets/images/potato_features.jpg';
 
 const StyledBox = styled(Box)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
   padding: `${theme.spacing(6)} ${theme.spacing(2)}`,
-  background: 'linear-gradient(to bottom, #83AA71, #83AA71, #81A86F)',
+  background: 'linear-gradient(to bottom, #F0DFB4, #F0DFB4, #F0DFB4)',
 }));
 
 const Title = styled(Typography)(({ theme }) => ({
   fontSize: '3rem',
   textAlign: 'center',
-  color: 'white',
-  '& sup': {
-    fontSize: '1rem',
-  },
+  color: '#88652B',
   [theme.breakpoints.down('sm')]: {
     fontSize: '1.5rem',
-    '& sup': {
-      fontSize: '.9rem',
-    },
   },
+  fontWeight: 'light',
 }));
 
 const Description = styled(Typography)(({ theme }) => ({
   fontSize: '1.5rem',
   textAlign: 'center',
-  color: 'white',
+  color: '#88652B',
+  '& sup': {
+    fontSize: '.9rem',
+  },
   [theme.breakpoints.down('sm')]: {
     fontSize: '1rem',
+    '& sup': {
+      fontSize: '.6rem',
+    },
   },
 }));
 
@@ -55,23 +56,23 @@ const TextContainer = styled(Box)(({ theme }) => ({
   maxWidth: '600px',
 }));
 
-function Nutrition() {
+function Features() {
   return (
-    <StyledBox id="nutrition" component="section">
+    <StyledBox id="feature" component="section">
       <TextContainer>
         <Title variant="h1" gutterBottom>
-          Is <b>Potato</b><sup>TM</sup> healthy? Yes it is!
+          Easily Transformable
         </Title>
         <Description variant="h3" gutterBottom>
-          The majority of carbohydrates in potatoes are complex carbohydrates, your body's main energy source.
+          Because of its unique structure, <b>Potato</b><sup>TM</sup> is easily useable and transformable in any way you can think of.
         </Description>
       </TextContainer>
       <Image
-        src={nutrition.src}
+        src={features.src}
         alt="Some nutritional values of a potato: 110 calories, 26g carbohydrate, 3g protein and 0g fat"
       />
     </StyledBox>
   );
 }
 
-export default Nutrition;
+export default Features;

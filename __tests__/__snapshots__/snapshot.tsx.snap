@@ -175,7 +175,38 @@ exports[`renders homepage unchanged 1`] = `
         </div>
         <img
           alt="Some nutritional values of a potato: 110 calories, 26g carbohydrate, 3g protein and 0g fat"
-          class="css-2q27ea"
+          class="css-1sd270y"
+          src="/img.jpg"
+        />
+      </section>
+      <section
+        class="MuiBox-root css-vvqbdx"
+        id="feature"
+      >
+        <div
+          class="MuiBox-root css-1ewxv5a"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-h1 MuiTypography-gutterBottom css-106wd46-MuiTypography-root"
+          >
+            Easily Transformable
+          </h1>
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1sebttd-MuiTypography-root"
+          >
+            Because of its unique structure, 
+            <b>
+              Potato
+            </b>
+            <sup>
+              TM
+            </sup>
+             is easily useable and transformable in any way you can think of.
+          </h3>
+        </div>
+        <img
+          alt="Some nutritional values of a potato: 110 calories, 26g carbohydrate, 3g protein and 0g fat"
+          class="css-1sd270y"
           src="/img.jpg"
         />
       </section>
