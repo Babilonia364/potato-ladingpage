@@ -65,7 +65,7 @@ const CustomImagePotato = styled('img')(({ theme }) => ({
 
 function About() {
   return (
-    <AboutContainer id='about'>
+    <AboutContainer component="section" id='about'>
       <CustomTitle variant="h2" gutterBottom>
         Diferentes shapes and sizes
       </CustomTitle>

@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Headline from "@/components/Headline";
 import Nutrition from "@/components/Nutrition";
+import Testimonials from "@/components/Testimonials";
 import { styled } from "@mui/material";
 
 const CustomDivContainer = styled('div')({
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <Nutrition />
         <Features />
+        <Testimonials />
       </main>
 
       <footer>

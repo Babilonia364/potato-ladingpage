@@ -108,7 +108,7 @@ exports[`renders homepage unchanged 1`] = `
           src="/img.jpg"
         />
       </section>
-      <div
+      <section
         class="MuiBox-root css-3jh26m"
         id="about"
       >
@@ -147,7 +147,7 @@ exports[`renders homepage unchanged 1`] = `
             src="/img.jpg"
           />
         </div>
-      </div>
+      </section>
       <section
         class="MuiBox-root css-m4hpti"
         id="nutrition"
@@ -209,6 +209,83 @@ exports[`renders homepage unchanged 1`] = `
           class="css-1sd270y"
           src="/img.jpg"
         />
+      </section>
+      <section
+        class="MuiBox-root css-b6wyj5"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h1 MuiTypography-gutterBottom css-bgiw1k-MuiTypography-root"
+        >
+          100% Customer satisfaction!
+        </h1>
+        <div
+          class="MuiBox-root css-q2k053"
+        >
+          <button
+            aria-label="Previous testimonial"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ArrowBackIosIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M11.67 3.87 9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="MuiBox-root css-1h972zz"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1blhdx3-MuiTypography-root"
+            >
+              I was skeptic at first, but when i tried the Potato for the first time, my life has completely changed! I'm a better person now. Everything is better with the Potato
+            </p>
+            <div
+              class="MuiBox-root css-59whaf"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle2 css-p9swn1-MuiTypography-root"
+              >
+                <b>
+                  Jane Doe
+                </b>
+                , 
+                single mom
+              </h6>
+            </div>
+          </div>
+          <button
+            aria-label="Next testimonial"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ArrowForwardIosIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
       </section>
     </main>
     <footer>
