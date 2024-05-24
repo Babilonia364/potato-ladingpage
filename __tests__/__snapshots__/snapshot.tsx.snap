@@ -287,6 +287,318 @@ exports[`renders homepage unchanged 1`] = `
           </button>
         </div>
       </section>
+      <section
+        class="css-1egdvb8"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h2 css-uwou3x-MuiTypography-root"
+        >
+          Order one (or more) today!
+        </h2>
+        <div
+          class="MuiBox-root css-1jo1guj"
+        >
+          <div
+            class="css-1wclrzq"
+          >
+            <div>
+              <h2
+                class="MuiTypography-root MuiTypography-h2 css-njjbqi-MuiTypography-root"
+              >
+                <b>
+                  Potato
+                </b>
+                <sup>
+                  TM
+                </sup>
+                 Lite
+              </h2>
+              <div
+                class="MuiBox-root css-1kyteaw"
+              >
+                <ul
+                  class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+                >
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Small and Compact
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Highly Portable
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Unapologetically delicious
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1svhhwh-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Order
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-i50l10-MuiTypography-root"
+                >
+                  starting at $
+                  9.99
+                </h6>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-164r41r"
+            >
+              <img
+                alt="Product Image"
+                class="css-9whsf3"
+                src="/img.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="css-1wclrzq"
+          >
+            <div>
+              <h2
+                class="MuiTypography-root MuiTypography-h2 css-njjbqi-MuiTypography-root"
+              >
+                <b>
+                  Potato
+                </b>
+                <sup>
+                  TM
+                </sup>
+                 Pro
+              </h2>
+              <div
+                class="MuiBox-root css-1kyteaw"
+              >
+                <ul
+                  class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+                >
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Highly Portable
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Easily Sliceable
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Unapologetically delicious
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Very Nutritious
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1svhhwh-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Order
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-i50l10-MuiTypography-root"
+                >
+                  starting at $
+                  19.99
+                </h6>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-164r41r"
+            >
+              <img
+                alt="Product Image"
+                class="css-9whsf3"
+                src="/img.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="css-1wclrzq"
+          >
+            <div>
+              <h2
+                class="MuiTypography-root MuiTypography-h2 css-njjbqi-MuiTypography-root"
+              >
+                <b>
+                  Potato
+                </b>
+                <sup>
+                  TM
+                </sup>
+                 Team
+              </h2>
+              <div
+                class="MuiBox-root css-1kyteaw"
+              >
+                <ul
+                  class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+                >
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Ideal for bigger groups
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Easily Sliceable
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Unapologetically delicious
+                      </span>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1ch5vab-MuiListItem-root"
+                  >
+                    <div
+                      class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                      >
+                        Very Nutritious
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1svhhwh-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Order
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-i50l10-MuiTypography-root"
+                >
+                  starting at $
+                  9.99
+                </h6>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-164r41r"
+            >
+              <img
+                alt="Product Image"
+                class="css-9whsf3"
+                src="/img.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div

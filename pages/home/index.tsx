@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import BuyItNow from "@/components/BuyItNow";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -25,6 +26,7 @@ export default function Home() {
         <Nutrition />
         <Features />
         <Testimonials />
+        <BuyItNow />
       </main>
 
       <footer>
